@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The first video I watched in YouTube was "Web Development Tutorial for Beginners"-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SL Property Management Agency</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="header">
+        <div class="line">
+            <header>
+                <div class="column col4">
+                    <h1 class="logo">SL Property Management Agency</h1>
+                </div>
+                <div class="column col8">
+                    <!--The following 8 lines of code has been sourced from https://www.w3schools.com/-->
+                    <nav>
+                        <ul class="menu inline no-marker">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="clients.html">Clients</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="line">
+        <section>
+            <div class="column col5 sidebar">
+                    <h3>Location</h3>
+                    <img src="img/Map.png" width="300px" height="250px" />
+                    <ul>
+                        <li>Merrion Square</li>
+                        <li>Dublin 2</li>
+                        <li>Ireland</li>
+                    </ul>
+                    <h3>Contact</h3>
+                        <ul class="no-padding no marker">
+                            <li>Phone: <strong>01 123456</strong></li>
+                            <li>Email: <strong>contact@slproperty.ie</strong></li>
+                            <li>Website: <strong>SLProprety.ie</strong></li>
+                        </ul>
+            </div>
+                    <div class="column col7 contact">
+                        <h2>Send your message</h2>
+                        <form action="/action_page.php" onsubmit="myFunction()">
+                         <label for="name">Name</label>
+                         <input type="text" name="name" id= "name"/>
+                         <label for="email">E-mail</label>
+                         <input type="text" name="email" id= "email"/>
+                         <label for="subject">Subject</label>
+                         <input type="text" name="subject" id= "subject"/>
+                         <label for="message">Message</label>
+                         <textarea name="messege" id="messege" ></textarea>
+                         <input type="submit" class="button" name="send" value="Send a message &raquo;">
+                        </form>
+                        <script>
+                            function myFunction() {
+                              alert("The form was submitted");
+                            }
+                            </script>
+                    </div>             
+        </section>
+    </div>
+    <div class="footer">
+        <div class="line">
+            <footer>
+                <div class="column col12">
+                    <span>&copy; 2020 - SL Property Management Agency</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
